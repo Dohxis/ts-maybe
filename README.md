@@ -1,9 +1,9 @@
-# Maybe
+# use-maybe
 
 ## Installation
 
 ```bash
-npm install ts-maybe
+npm install use-maybe
 ```
 
 ## Usage
@@ -11,7 +11,7 @@ npm install ts-maybe
 ### Standalone
 
 ```typescript
-import Maybe, { isSomething } from 'ts-maybe';
+import Maybe, { isSomething } from 'use-maybe';
 
 const numbers = [1, 2, undefined, 3, null, 4]
   .map(Maybe.Just)
@@ -23,7 +23,7 @@ console.log(numbers); // [ Maybe.Just(1), Maybe.Just(2), Maybe.Just(3), Maybe.Ju
 ### With promises
 
 ```typescript
-import Maybe from 'ts-maybe';
+import Maybe from 'use-maybe';
 
 const personName = fetch('https://api/person/1')
   .then(Maybe.Just)

@@ -31,7 +31,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "ts-maybe",
+  "name": "use-maybe",
   "author": "Domantas Mauruca",
   "module": "dist/ts-maybe.esm.js",
   "size-limit": [
